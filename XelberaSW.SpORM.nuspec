@@ -10,8 +10,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ORM for stored procedure</description>
     <copyright>Copyright Steve Matafonov, 2018</copyright>
-    <projectUrl>http://git.dmn-ratek.local/summary/RatekCC.SpORM.git</projectUrl>
-    <iconUrl>http://git.dmn-ratek.local/raw/RatekCC.SpORM.git/master/nuget.png</iconUrl>
+    <projectUrl>https://github.com/matafonoff/XelberaSW.SpORM</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/matafonoff/XelberaSW.SpORM/master/nuget.png</iconUrl>
     <dependencies>
         <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="2.0.1" />
         <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.0" />
