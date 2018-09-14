@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.2.12</version>
+    <authors>Steve Matafonov</authors>
+    <owners>Steve Matafonov</owners>
+    <id>XelberaSW.SpORM</id>
+    <title>SpORM</title>
+    <tags>ORM, stored procedure</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ORM for stored procedure</description>
+    <copyright>Copyright Steve Matafonov, 2018</copyright>
+    <projectUrl>http://git.dmn-ratek.local/summary/RatekCC.SpORM.git</projectUrl>
+    <iconUrl>http://git.dmn-ratek.local/raw/RatekCC.SpORM.git/master/nuget.png</iconUrl>
+    <dependencies>
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="2.0.1" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.0" />
+    </dependencies>
+    
+  </metadata>
+  <files>
+    <file src="XelberaSW.SpORM\bin\Release\netcoreapp2.0\XelberaSW.SpORM.dll" target="lib\netcoreapp2.0\XelberaSW.SpORM.dll" />
+  </files>
+</package>

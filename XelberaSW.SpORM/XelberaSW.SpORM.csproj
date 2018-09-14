@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.2.12</Version>
+    <Authors>Steve Matafonov</Authors>
+    <Company>Xelbera SW</Company>
+    <PackageProjectUrl>http://git.dmn-ratek.local/summary/RatekCC.SpORM.git</PackageProjectUrl>
+    <PackageIconUrl>http://git.dmn-ratek.local/raw/RatekCC.SpORM.git/master/nuget.png</PackageIconUrl>
+    <RepositoryUrl>http://git.dmn-ratek.local/summary/RatekCC.SpORM.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>SpORM</PackageId>
+    <Description>ORM for stored procedure</Description>
+    <Copyright>Copyright Steve Matafonov, 2018</Copyright>
+    <AssemblyVersion>1.2.12.1</AssemblyVersion>
+    <FileVersion>1.2.12.1</FileVersion>
+    <PackageTags>ORM, stored procedures</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pose\**" />
+    <EmbeddedResource Remove="Pose\**" />
+    <None Remove="Pose\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
