@@ -3,7 +3,7 @@
 ORM for working with StoredProcedures
 
 ### Installation
-No NuGet package available at nuget.org the moment.
+No NuGet package available at nuget.org at the moment.
 You can use git submodules and add reference to csproj file directly.
 
 ### Usage
