@@ -8,7 +8,7 @@ You can use git submodules and add reference to csproj file directly.
 
 ### Usage
 
-    public class MyDbContext : XelberaSW.SpORM.DbContext, ITestDbContext
+    public class MyDbContext : DbContext
     {
         private class DispatcherArguments
         {
