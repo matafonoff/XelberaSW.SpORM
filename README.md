@@ -1,4 +1,4 @@
-## RatekCC.SpORM
+## XelberaSW.SpORM
 
 ORM for working with StoredProcedures
 
