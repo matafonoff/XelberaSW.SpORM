@@ -1,4 +1,9 @@
-﻿using System.Data.SqlTypes;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+using System.Data.SqlTypes;
 using System.IO;
 using System.Xml;
 

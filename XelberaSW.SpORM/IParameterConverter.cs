@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+using System.Collections.Generic;
 
 namespace XelberaSW.SpORM
 {

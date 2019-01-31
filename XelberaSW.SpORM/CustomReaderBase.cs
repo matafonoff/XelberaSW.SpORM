@@ -1,4 +1,9 @@
-﻿using System.Data;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+using System.Data;
 
 namespace XelberaSW.SpORM
 {

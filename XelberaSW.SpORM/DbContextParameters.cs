@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+using System;
 using System.Data.Common;
 using Microsoft.Extensions.Logging;
 

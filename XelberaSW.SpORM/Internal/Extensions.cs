@@ -1,4 +1,9 @@
-﻿using System.Diagnostics;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+using System.Diagnostics;
 using System.Reflection;
 using System.Reflection.Emit;
 

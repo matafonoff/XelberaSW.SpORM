@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Copyright (c) 2018 Xelbera (Stepan Matafonov)
+ * All rights reserved.
+ */
+
+sing System;
 using System.Data;
 using System.Linq.Expressions;
 using System.Reflection;
